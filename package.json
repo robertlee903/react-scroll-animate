@@ -39,5 +39,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
     "gulp-uglifyjs": "^0.6.2"
-  }
+  },
+  "main": "dist/ScrollAnimate.min"
 }
