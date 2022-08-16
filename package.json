@@ -1,38 +1,43 @@
 {
   "name": "react-scroll-animate",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
-  },
+  "version": "1.0.0",
+  "description": "React component to animate elements on scroll with animate.css",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertlee903/react-scroll-animate.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [
+    "reactScrollAnimate",
+    "react",
+    "reactJS",
+    "react-component",
+    "animate",
+    "scroll"
+  ],
+  "author": "robertlee903",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertlee903/react-scroll-animate/issues"
+  },
+  "homepage": "https://github.com/robertlee903/react-scroll-animate",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  },
+  "peerDependencies": {
+    "classnames": "^2.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifyjs": "^0.6.2"
   }
 }
